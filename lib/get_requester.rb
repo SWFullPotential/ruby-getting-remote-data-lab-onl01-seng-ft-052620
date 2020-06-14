@@ -16,8 +16,7 @@ class GetRequester
   end
   
   def parse_json
-    get_requester = GetRequester.new(URL)
-    results = get_requester.parse_json
+  
   end
   
 end
