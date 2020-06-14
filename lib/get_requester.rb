@@ -19,8 +19,6 @@ class GetRequester
     results = JSON.parse(self.get_response_body)
     results.collect do |result|
       result["agency"]
-      get_requester = GetRequester.new(URL)
-      results = get_requester.parse_json
     end
   end
   
