@@ -16,11 +16,12 @@ class GetRequester
   end
   
   def parse_json
-    get_requester = GetRequester.new(URL)
-      results = get_requester.parse_json
+    
     end
   end
   
 end
+    # get_requester = GetRequester.new(URL)
+    #   results = get_requester.parse_json
 # datum = GetRequester.new
 # puts datum.parse_json.uniq
